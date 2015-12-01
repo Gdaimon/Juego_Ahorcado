@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego Ahorcado</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="ahorcado.js"></script>
+</head>
+
+<body>
+    <div id="uno">
+        <br>
+        <h1>Adivina Letra a Letra</h1>
+        <canvas id="c"></canvas>
+        <h2 id="pista">_ _ _ _ _ _ _ _</h2>
+        <p>
+
+
+            Elige Una Letra:
+            <input type="text" id="letra" />
+            <input type="button" id="boton" value="Boom!!" onclick="focus('letra');" />
+
+        </p>
+        <br />
+    </div>
+    <script type="text/javascript">
+        iniciar();
+
+        function foco(idElemento) {
+            document.getElementById(idElemento).focus();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang = "es">
+	<meta charset = "UTF-8">
+	<title></title>
+	<script type = "text/javascript">
+		function presion ( event )
+			{
+			alert ( event.charCode );
+			}
+	</script>
+</head>
+<body>
+<div style = "background-color: #7180ff; width: 300px; height: 400px; cursor: pointer "
+     onmouseover = "this.style.backgroundColor='red'" onmouseout = "this.style.backgroundColor='aqua'"></div>
+<input type = "text" onkeypress = "presion(event)" />
+<table border = "3">
+	<tr>
+		<td>China</td>
+		<td>1300 millones</td>
+	</tr>
+	<tr>
+		<td>India</td>
+		<td>1080 millones</td>
+	</tr>
+	<tr>
+		<td>Estados Unidos</td>
+		<td>295 millones</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#uno {
+    font-family: verdana;
+    color: rgba(48, 27, 167, 0.51);
+    background-color: rgba(84, 183, 245, 0.19);
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(12, 126, 160, 0.57);
+    border-radius: 5px;
+}
+#letra {
+    box-shadow: 3px 3px 8px #888888;
+    border-radius: 12px;
+}
+#boton {
+    box-shadow: 3px 3px 8px rgba(12, 126, 160, 0.57);
+    border-radius: 5px;
+}
+body {
+    background-color: rgba(188, 188, 188, 0.29);
+}
